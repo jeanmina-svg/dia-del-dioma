@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fuentes y Contactos - Día del Idioma</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tablass.html">Tablas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- FORMULARIO DE CONTACTO FUERA DE LA TABLA -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- TABLA DE FUENTES -->
+    <table>
+        <caption>Fuentes y Contactos para Saber Más del Día del Idioma</caption>
+        <thead>
+            <tr>
+                <th>Fuente / Institución</th>
+                <th>Tipo de Información</th>
+                <th>Enlace o Contacto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Instituto Cervantes</td>
+                <td>Historia del español, actividades del Día del Idioma, expansión del idioma</td>
+                <td><a href="https://www.cervantes.es" target="_blank">Visitar</a></td>
+            </tr>
+            <tr>
+                <td>Real Academia Española (RAE)</td>
+                <td>Normas lingüísticas, evolución del idioma, eventos culturales</td>
+                <td><a href="https://www.rae.es" target="_blank">Visitar</a></td>
+            </tr>
+            <tr>
+                <td>UNESCO</td>
+                <td>Día Mundial del Libro y promoción de la diversidad lingüística</td>
+                <td><a href="https://www.unesco.org/es/days/world-book" target="_blank">Visitar</a></td>
+            </tr>
+            <tr>
+                <td>Biblioteca Nacional de España</td>
+                <td>Exposiciones históricas, datos sobre autores como Cervantes</td>
+                <td><a href="https://www.bne.es" target="_blank">Visitar</a></td>
+            </tr>
+            <tr>
+                <td>FundéuRAE</td>
+                <td>Curiosidades, recomendaciones sobre el buen uso del idioma</td>
+                <td><a href="https://www.fundeu.es" target="_blank">Visitar</a></td>
+            </tr>
+            <tr>
+                <td>Instituto Nacional de Lenguas Indígenas (INALI)</td>
+                <td>Información sobre la diversidad lingüística en México</td>
+                <td><a href="https://www.inali.gob.mx" target="_blank">Visitar</a></td>
+            </tr>
+            <tr>
+                <td>Revista Española de Lingüística</td>
+                <td>Estudios científicos, investigaciones y curiosidades lingüísticas</td>
+                <td><a href="https://revistas.ucm.es/index.php/ESLE" target="_blank">Visitar</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
